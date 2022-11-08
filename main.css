@@ -1,0 +1,49 @@
+
+body {
+  overscroll-behavior: none;
+  height: 100vh;
+  background-color: rgb(20, 20, 20);
+  color: rgb(238, 238, 238);
+  font-family: 'Ubuntu', sans-serif;
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+.oakLogo{
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 5%;
+    display: block;
+  
+}
+.centeredText{
+    text-align: center;
+}
+.container {
+  overscroll-behavior: none;
+  width: 600%;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+.panel {
+  width: 100vw;
+  height: 100vh;
+}
+
+.red {
+  background-color: red;
+}
+.orange {
+  background-color: orange;
+}
+.purple {
+  background-color: purple;
+}
+.green {
+  background-color: green;
+}
+.gray {
+  background-color: gray;
+}
