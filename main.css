@@ -2,7 +2,9 @@
 body {
   overscroll-behavior: none;
   height: 100vh;
-  background-color: rgb(20, 20, 20);
+  background: rgb(18,18,18);
+  background: linear-gradient(90deg, rgba(18,18,18,1) 0%, rgba(3,160,124,1) 49%, rgba(0,212,255,1) 100%);
+
   color: rgb(238, 238, 238);
   font-family: 'Ubuntu', sans-serif;
 }
@@ -26,24 +28,26 @@ body::-webkit-scrollbar {
   display: flex;
   flex-wrap: nowrap;
 
+
 }
-.panel {
+.panel {  
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 5%;
+}
+.card{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#secondCard{
+  width: 70%;
+  height: 50%;
+  background-color: rgb(71, 71, 71);
+}
+#onlineMagazineImage{
+  max-width: 100%;
 }
 
-.red {
-  background-color: red;
-}
-.orange {
-  background-color: orange;
-}
-.purple {
-  background-color: purple;
-}
-.green {
-  background-color: green;
-}
-.gray {
-  background-color: gray;
-}

@@ -1,43 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Oak Portfolio</title>
-    <link rel="stylesheet" href="main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="container">
-      <div class="description panel blue">
-        <img class='oakLogo' src="Group 1.svg" alt="">
-        <div class='centeredText'>
-          <h1>Portfolio</h1>
-          <h3>Scroll to see the work I have done!</h3>
-        </div>
-      </div>
 
-      <section class="panel red">
-        ONE
-      </section>
-      <section class="panel orange">
-        TWO
-      </section>
-      <section class="panel purple">
-        THREE
-      </section>
-      <section class="panel green">
-        FOUR
-      </section>
-      <section class="panel gray">
-        FIVE
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oak Portfolio</title>
+  <link rel="stylesheet" href="main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="description panel blue">
+      <img class='oakLogo' src="Group 1.svg" alt="">
+      <div class='centeredText'>
+        <h1>My Portfolio</h1>
+        <h3>Scroll to see the work I have done!</h3>
+      </div>
     </div>
-  </body>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
-  <script src="app.js"></script>
+
+    <section class="panel">
+      <div class="card">
+        
+        <div>
+          <h1>Online Magazine</h1>
+          <h3>This group project was made for the course Visual Communication</h3>
+          <img id='onlineMagazineImage' src="onlineMagazine.PNG" alt="">
+        </div>
+        <div>
+          <h3>You can see the full website <a href="https://baccoae.github.io/codesigners-philosophy-website/">here</a>
+          </h3>
+        </div>
+
+
+      </div>
+    </section>
+    <section class="panel">
+      <div class="card">   
+        <div>
+          <h1>Animated Thing</h1>
+          <h3>This thing is an animated thing that I made for a thing</h3>
+          <iframe src="https://giphy.com/embed/cVG3jyPnNsBnt1bO50" width="480" height="256" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/news-midterms-2022-victory-speech-cVG3jyPnNsBnt1bO50"></a></p>
+        </div>
+        <div>
+          <h3>This is a placeholder though :)</h3>
+        </div>
+
+
+      </div>
+      
+    </section>
+    <section class="panel purple">
+      THREE
+    </section>
+    <section class="panel green">
+      FOUR
+    </section>
+    <section class="panel gray">
+      FIVE
+    </section>
+  </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+<script src="app.js"></script>
+
 </html>
